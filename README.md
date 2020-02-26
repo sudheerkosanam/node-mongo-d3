@@ -26,11 +26,11 @@ C:\Program Files\MongoDB\Server\3.0\bin>
 
 Fire up your mongoDB by running mongod.exe. Leave the prompt running as it is and open another command prompt and navigate to the bin directory again. Enter this command
  
-C:\Program Files\MongoDB\Server\3.0\bin>mongoimport -d donorschoose -c projects --type csv --headerline --file C:\Users\mypc\Desktop\sampledata\sampledata.csv
+C:\Program Files\MongoDB\Server\3.0\bin>mongoimport -d test -c products --type csv --headerline --file C:\Users\mypc\Desktop\sampledata\sampledata.csv
 
 or
 
-you can go to the file location in command prompt and enter this command-- mongoimport -d donorschoose -c projects --type csv --headerline --file 
+you can go to the file location in command prompt and enter this command--> mongoimport -d test -c products --type csv --headerline --file 
    
    
 ![image_2020_02_25T15_42_18_665Z](https://user-images.githubusercontent.com/32735357/75322942-d3826480-5899-11ea-9fcb-21cbdcd5d075.png)
