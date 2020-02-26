@@ -33,6 +33,8 @@ router.route("/products")
           //  res.jsonp(data);
         });
     })
+//some random post call written .please update according to the payload you want to provide to insert into the mongodb.
+//post call
     .post(function(req,res){
             var db = new mongoOp();
             var response = {};
